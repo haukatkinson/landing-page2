@@ -1,12 +1,25 @@
-
-/* 
-
-    You can write your own styles here...
+.navbar-nav {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    }
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    .div1 { grid-area: 1 / 3 / 2 / 5; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
 
-*/
+
+.card-btn{
+    bottom:0;
+
+}
+.card-body{
+    text-align: center;
+}
+.card-button{
+    height: 60px;
+}
+.bot-button{
+    width: 30px;
+}
